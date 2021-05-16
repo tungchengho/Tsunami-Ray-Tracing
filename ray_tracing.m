@@ -25,7 +25,7 @@ T_B = T_B*3600;
 
 fprintf('    TB(A) = %10.5f, TA(B) = %10.5f\n', T_B(epiy(1),epix(1))/60, T_A(stn_y,stn_x)/60)
 
-%% Calculating
+%% Calculating 
 fprintf('Now calculating the ray path\n')
 
 % Trace the path from Point 2 to Point 1
